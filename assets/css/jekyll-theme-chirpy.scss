@@ -1,11 +1,12 @@
 ---
 ---
 
-/* prettier-ignore */
-@use 'main
+
+
 {%- if jekyll.environment == 'production' -%}
-  .bundle
+@import "main.bundle";
+{%- else -%}
+@import "main";
 {%- endif -%}
-';
 
 /* append your custom style below */
