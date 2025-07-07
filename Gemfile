@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 4.4.1"
 gem "jekyll-feed"
 gem "jekyll-include-cache"
 
